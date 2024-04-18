@@ -53,6 +53,8 @@ public class BlackJackConsole{
 		}
 		
 	}while(continu.compareTo("y") ==0);
+	scan.close();
+	scan2.close();
 	}
 	public static void main(String[] args){
 		new BlackJackConsole();
